@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <div>
+    <h1 class="text-center text-3xl">Tic Tac Toe</h1>
+    <hr />
+  <TicTacToe />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import HelloWorld from './components/HelloWorld.vue'
+import TicTacToe from './components/TicTacToe.vue'
+import './assets/tailwind.css'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    TicTacToe
   }
 }
 </script>
